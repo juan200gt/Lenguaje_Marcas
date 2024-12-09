@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>El Fitness</title>
+</head>
+
+<body>
+    <header>
+        <h1>El Fitness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="rutinas.html">Rutinas</a></li>
+                <li><a href="competicion.html">Mr. Olympia</a></li>
+                <li><a href="acerca_de_mi.html">Acerca de mi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Acerca de mi</h2>
+
+    <div>
+        <p>Me llamo Juan, tengo 19 años y soy de Marbella.
+            Estoy estudiando en el CPIFP Alan Turing porque me han dicho que es el mejor que hay.
+        </p>
+
+        <p>He hecho esta tema de la pagina web ya que me gusta el gimnasio.
+            Esa es una de mis aficiones, otras son:
+        </p>
+        <ul>
+            <li>Escuchar música</li>
+            <li>Programar</li>
+            <li>Ver series</li>
+            <li>Motores</li>
+        </ul>
+
+    </div>
+
+    <h1>Formulario para saber de ti tambien</h1>
+    <div class="background-img">
+        <div id="contenido">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required> <label for="edad">Edad</label>
+
+                <input type="number" id="edad" name="edad" required> <label>Género</label>
+
+                <div class="radio-label">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino" required>
+                </div>
+
+                <div class="radio-label">
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino" required>
+                </div>
+
+                <label for="opciones">Elige tus aficiones comunes</label>
+                <div class="checkbox" id="opciones">
+
+                    <label for="Gimnasio">
+                        <input type="checkbox" id="Gimnasio" name="opciones" value="Gimnasio"> Gimnasio</label>
+
+                    <label for="Musica">
+                        <input type="checkbox" id="Musica" name="opciones" value="Musica"> Música</label>
+
+                    <label for="Programar">
+                        <input type="checkbox" id="Programar" name="opciones" value="Programar"> Programar</label>
+
+                    <label for="Series/Peliculas">
+                        <input type="checkbox" id="Series/Peliculas" name="opciones" value="Series/Peliculas">
+                        Series/Peliculas</label>
+
+                </div>
+
+                <label for="comentarios">Comentarios</label>
+                <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+                <input type="submit" value="Enviar" class="submit">
+            </form>
+        </div>
+
+    </div>
+
+    <div id="div-audio">
+    <p>Este es un audio de un juego muy famoso</p>
+        <audio controls>
+            <source src="SuperMarioBros.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <h2>Mapa</h2>
+    <iframe id="mapa"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.2503503923017!2d-4.557037723508276!3d36.740561471058015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f10963ce0f3d%3A0x310ae7d4bb2e8f7b!2sCPIFP%20Alan%20Turing!5e0!3m2!1ses!2ses!4v1733578250206!5m2!1ses!2ses"
+        width="2000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <img src="chatdudas.png" alt="chatdudas" class="chatdudas">
+
+
+    <footer>
+        <p>El Fitness 2024</p>
+        <p>Contacto: 123456789</p>
+    </footer>
+</body>
+
+</html>
