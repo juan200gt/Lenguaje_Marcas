@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+/*Header*/
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(83, 83, 83);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    z-index: 3;
+    clear: both;
+    box-shadow: inset 0 0 5px rgba(98, 156, 255, 0.5);
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: rgb(60, 255, 0);
+}
+
+nav ul li a:visited {
+    color: rgb(255, 145, 0);
+}
+
+h2 {
+    position: relative;
+    bottom: 10px;
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+div {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(57, 62, 68);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.divheader {
+    padding: 0px;
+    margin: 0px;
+    max-width: 700px;
+    border: none;
+}
+
+h3 {
+    color: white;
+}
+
+
+img {
+    border-radius: 10px;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-style: groove;
+}
+
+p {
+    text-align: justify;
+    color: white;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgba(4, 36, 84, 0.885);
+}
+
+td {
+    background-color: rgba(37, 75, 133, 0.885);
+
+}
+
+
+
+/*Chatduda*/
+
+.chatdudas {
+    border: none;
+    margin: 0;
+    width: 4%;
+    position: sticky;
+    bottom: 30%;
+}
+
+
+
+
+
+/*Footer*/
+footer {
+    position: static;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(44, 44, 44);
+    clear: both;
+    box-shadow: inset 0 0 10px rgba(98, 156, 255, 0.5);
+
+}
